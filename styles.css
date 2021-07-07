@@ -13,20 +13,30 @@ input {
   box-sizing: border-box;
   border: 1px solid rgb(95, 95, 196);
   background: whitesmoke;
+  border-radius: 5px;
+  color: rgb(32, 32, 170);
 }
 
 button {
   padding: 10px 20px;
-  border: 1px solid rgb(37, 37, 179);
-  color: black;
+  border: 1px solid rgb(167, 167, 202);
+  color: rgb(32, 32, 170);
   font-weight: bold;
-  background: rgb(132, 132, 233);
+  background: white;
   border-radius: 5px;
 }
 
+button:hover {
+  background: rgb(195, 171, 245);
+}
+
 #delete_btn {
-  color: rgb(37, 37, 179);
+  color: rgb(32, 32, 170);
   background: whitesmoke;
+}
+
+#delete_btn:hover {
+  background: rgb(195, 171, 245);
 }
 
 ul {
